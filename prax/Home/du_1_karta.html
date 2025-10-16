@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alza/monitor/LG 24GS50F-B</title>
+    <link rel="stylesheet" href="css/du_1_karta.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="nazov_stranky"> Alza.sk</h1>
+</header>
+<a href="#monitor">Informácie o produkte</a><p></p>
+<a href="#kosik">Do košíka</a>
+<nav></nav>
+
+<main>
+    <img src="pictures/monitor.png" alt="monitor" class="monitor_obrazok">
+    <p></p>
+    <fieldset>
+    <article class="informacie">
+        <section class="sekcia_informacie_1">
+            <h2 class="nazov_monitoru" id="monitor"> 24 palcový LG 24G550F-B</h2>
+            <div class="informacie1">Monitor – VA, Full HD 1920 × 1080 (16 : 9), 180 Hz, antireflexný displej, 8 bit, 1 ms,</div>
+            <div class="informacie2">FreeSync a Adaptive-Sync, HDMI a DisplayPort, VESA</div>
+        </section>
+
+        <section class="sekcia_cena_produktu">
+            <div style="text-align: left;font-family: Verdana, Geneva, Tahoma, sans-serif;">Cena s DPH</div>
+            <p class="Cena">131€</p>
+        </section>
+        <label for="tlacitko" style="text-align: center;"></label>
+        <input type="submit" value="Do košíka">
+    <a href="#">Späť na vrch</a>
+    </article>
+    </fieldset>
+    <div class="kosik" id="kosik">Košík</div>
+    <form action="kosik" method="post"></form>
+    <fieldset>
+        <legend>Košík</legend>
+    <p> 
+        <label for="meno"></label>
+            Meno:       <input type="text" name="meno" id="meno"><br>
+    </p>
+    <p>
+    <label for="Priezvisko"></label>
+    Priezvisko  <input type="text" name="Priezvisko" id="Priezvisko">
+    </p>
+    <p>
+        <label for="Adresa"></label>
+        Adresa <input type="text" name="Adresa" id="Adresa">
+    </p>
+    <p>
+    Spôsob dopravy <select name="doprava" id="doprava">
+    <option value="Predajne">Predajne</option>
+    <option value="Alzabox">AlzaBox</option>
+    <option value="dorucenie">Doručenie na adresu</option>
+    </select>
+    </p>
+    <label for="tlacitko"></label>
+    <input type="submit" value="Kúpiť">
+
+    </p>    
+</fieldset>
+
+    <a href="#">Späť na vrch</a>
+</main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+
+}
+#block{
+    text-align: center;
+
+}
+div.parent-block{
+    background-color: #ffffff;
+}
+div.child1{
+    background-color: rgb(226, 43, 52);
+    height: 100px;
+}
+div.child2{
+    background-color: blue;
+    height: 100px;
+}
+div.child3{
+    background-color: pink;
+    height: 200px;
+}
+div.child4{
+    background-color: greenyellow;
+    height: 100px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulár</title>
+</head>
+<body>
+    <form action="formular" method="post"></form>
+    <fieldset>
+    <legend>Login</legend>
+        <p>
+            <label for="meno">Meno:</label>
+            <input type="text" name="meno" id="meno">
+        </p>
+        <p>
+            <label for="priezvisko">Priezvisko:</label>
+            <input type="text" name="priezvisko" id="priezvisko">
+        </p>
+        <p>
+            
+    Vek: <select name="vek" id="vek">
+        <option value="0-16">0-16 rokov</option>
+        <option value="17-30">17-30 rokov</option>
+        <option value="31-50">31-50 rokov</option>
+        <option value="51-70">51-70 rokov</option>
+        <option value="70+">70+ rokov</option>
+    </select>   
+        
+        
+        </p>
+        <p>
+            <label for="mail">Mail:</label>
+            <input type="text" name="mail" id="mail">
+        </p>
+        <p>
+            <label for="muž">Pohlavie:</label>
+            
+            <input type="radio" name="muž" id="muž"> muž
+            <input type="radio" name="žena" id="žena"> žena
+        </p>
+        <p>
+            <label for="zručnosti">Zručnosti:</label> <br>
+            <input type="checkbox" name="zručnosti" id="zručnosti"> HTML 
+            <input type="checkbox" name="zručnosti" id="zručnosti"> CSS
+            <input type="checkbox" name="zručnosti" id="zručnosti"> Python
+            <input type="checkbox" name="zručnosti" id="zručnosti"> JavaScript
+
+        </p>
+
+        <p>
+        Správa : <br>
+        <textarea rows = "8" cols="30" name="comment" id="comment"></textarea>
+        </p>
+
+
+
+
+
+
+
+
+
+    </fieldset>
+</body>
+</html>

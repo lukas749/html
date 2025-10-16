@@ -1,0 +1,56 @@
+h1.nazov_stranky{
+    text-align: center;
+    color: rgb(39, 51, 102);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 72px;
+    background-color: aqua;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+img.monitor_obrazok{
+    width: 50%;
+    height: auto;
+    margin-left: 400px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 5px grey;
+}
+h2.nazov_monitoru{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+div.informacie1{
+    font-size: 25px;
+    text-align: left;
+    font-family: tumes 'Times New Roman', Times, serif
+}
+div.informacie2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+p.Cena{
+    font-size: 36px;
+    text-align: left;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+label.tlacitko{
+    text-align: center;
+}
+a.monitor{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+div.kosik{
+    margin-top: 2000px;
+    font-size: 32px;
+}
