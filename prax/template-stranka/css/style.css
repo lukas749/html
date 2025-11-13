@@ -1,59 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  reset   */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}               
 
+/*    header   */
 .header{
     width: 100%;
     background-color: #ffffff;
-    height: 150px;
 }
-.header_content{
-    max-width: 500px;
+.header-content{
+    max-width: 800px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
     min-height: 60px;
     padding: 0 20px;
 }
 .logo{
-    width: 0px;
-    height: 0px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
+    padding-top: 30px;
 }
 .img_logo{
     width: 100%;
     height: auto;
 }
+/*   navigation   */
+/*.nav{
 
+}*/
 .nav_list{
     padding-left: 0;
     list-style-type: none;
     display: flex;
-    column-gap: 45px;
+    column-gap: 60px;
     align-items: center;
 }
 .nav_item{
-    position: relative;
+position: relative;
 
 }
 .nav_link{
-    font-size: 16px;
     font-family: Roboto;
-    text-decoration: none;
+    font-size: 16px;
     line-height: 16px;
-    color: #000000 ;
+    text-decoration: none;
+    color: #000000;
     font-weight: 600;
-    transition: all .3;
+    transition: all .3s;    
 }
-.nav_link:hover{
-    color: #4e4edd;
+.nav_link:hover, .nav_link:focus, .nav_link:hover:after{
+    color: #558ef7;
+    opacity: 1;
+     
 }
 .btn{
-
+    display: inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    background-color: #558ef7;
+    padding: 8px 20px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    transition: all .3s;    
 
 }
-
-/*https://nicepage.com/ht/6542985/data-protection-and-privacy-policy-html-template*/
+.btn:hover{
+    background-color: #4c57f1;
+    color: #ffffff;
+}
+.parent-block{
+    position: relative;
+    width: 100%;
+}
+.child1{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
+.child2{
+    background-color: #4c57f1;
+    height: 1500px;
+    width: 100%;     
+}
+.image-wrapper{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.stranka-background{
+    height: 400px;
+    width: auto;
+    border-radius: 32px;
+    
+}
+.child3{
+    height: 1000px;
+    width: 300px;
+    background-color: white;
+    margin-left: 250px;
+    padding-top: 350px;
+    border-radius: 32px;
+    font-family: Roboto;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
