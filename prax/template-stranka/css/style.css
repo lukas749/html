@@ -92,30 +92,126 @@ position: relative;
 .child2{
     background-color: #4c57f1;
     height: 1500px;
-    width: 100%;     
+    width: 100%;   
 }
 .image-wrapper{
     position: absolute;
     top: 300px;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 10;
+    z-index: 1;
 }
 .stranka-background{
     height: 400px;
     width: auto;
     border-radius: 32px;
+    z-index: 1;
     
 }
 .child3{
     height: 1000px;
-    width: 300px;
+    width: 500px;
     background-color: white;
-    margin-left: 250px;
-    padding-top: 350px;
     border-radius: 32px;
     font-family: Roboto;
     display: flex;
-    justify-content: flex-start;
-    text-align: start;
+    flex-direction: column;
+    justify-self: center;;
+    z-index: 2;
+    position: relative;
+    top: 150px;
+}
+.header1{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+}
+.c1{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.column2{
+    margin-top: 15px;
+    font-size: 11px;
+    margin-left: 40px;
+}
+.riadok{
+    height: 1px;
+    width: 450px;
+    border-bottom: 1px dotted #558ef7;
+    position: absolute;
+    z-index: 10;
+    margin-top: 160px;
+    display: flex;
+    margin-left: 30px;
+}
+.header2{
+    margin-top: 50px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: #4c57f1;
+    font-weight: 700;
+}
+.column3{
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.odrazka{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.column3_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.column4_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.column5_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.column6_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.column7{
+    margin-top: 15px;
+    margin-left: 45px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.column7_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.column8_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.column9_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.column10_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
 }
