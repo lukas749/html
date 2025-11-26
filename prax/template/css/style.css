@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}               
+
+
+.header{
+    width: 100%;
+    background-color: #ffffff;
+}
+.header-content{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    min-height: 60px;
+    padding: 0 20px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding-top: 30px;
+}
+.img_logo{
+    width: 100%;
+    height: auto;
+}
+.nav_list{
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+.nav_item{
+position: relative;
+
+}
+.nav_link{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    transition: all .3s;    
+}
+.nav_link:hover, .nav_link:focus, .nav_link:hover:after{
+    color: #558ef7;
+    opacity: 1;
+     
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    background-color: #558ef7;
+    padding: 8px 20px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    transition: all .3s;    
+
+}
+.btn:hover{
+    background-color: #4c57f1;
+    color: #ffffff;
+}
+.parent-block{
+    position: relative;
+    width: 100%;
+}
+.child1{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
+.child2{
+    background-color: #4c57f1;
+    height: 2000px;
+    width: 100%;   
+}
+.image-wrapper{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.stranka-background{
+    height: 400px;
+    width: auto;
+    border-radius: 32px;
+    z-index: 1;
+    
+}
+.child3{
+    height: 1000px;
+    width: 500px;
+    background-color: white;
+    border-radius: 32px;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;;
+    z-index: 2;
+    position: relative;
+    top: 150px;
+}
+.header1{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+}
+.c1{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.column2{
+    margin-top: 15px;
+    font-size: 11px;
+    margin-left: 40px;
+}
+.riadok{
+    height: 1px;
+    width: 450px;
+    border-bottom: 1px dotted #558ef7;
+    position: absolute;
+    z-index: 10;
+    margin-top: 15px;
+    display: flex;
+    margin-left: 30px;
+}
+.header2{
+    margin-top: 50px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: #4c57f1;
+    font-weight: 700;
+}
+.column3{
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.odrazka{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.column_odrazka{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.column7{
+    margin-top: 15px;
+    margin-left: 45px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.nadpis1{
+    margin-top: 250px;
+    margin-left: 25%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 26px;
+}
+.sekcia_pod_textom{
+    display: block;
+    justify-self: center;
+    margin-left: -10%;
+}
+.text_pod_nadpis1{
+    margin-top: 15px;
+    margin-left: 25%;
+    font-family: Roboto;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.odkaz_mail{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25%;
+    font-size: 16px;
+    font-family: Roboto;
+    color: white;
+    font-weight: 700;
+
+}
+.label_meno{
+    color: white;
+    font-family:Roboto;
+    font-weight: 600;
+}
+.inputy{
+    display: flex;
+    justify-content:space-between;
+    margin-top: -140px;
+    margin-left: 400px;
+    flex-direction: column;
+}
+.label_mail{
+    color: white;
+    font-family:Roboto;
+    font-weight: 600;    
+}
+
+textarea{
+    resize: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.input_msg{
+    color: white;
+    font-family:Roboto;
+    font-weight: 600;  
+}
+.btn2{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    transition: all .3s;
+    border-color: white;    
+}
+.btn2:hover{
+    background-color: #4c57f1;
+    color: #ffffff;
+}
