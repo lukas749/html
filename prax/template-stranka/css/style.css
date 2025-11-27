@@ -1,14 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*  reset   */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }               
 
-/*    header   */
+
 .header{
     width: 100%;
     background-color: #ffffff;
@@ -32,10 +31,6 @@
     width: 100%;
     height: auto;
 }
-/*   navigation   */
-/*.nav{
-
-}*/
 .nav_list{
     padding-left: 0;
     list-style-type: none;
@@ -91,7 +86,7 @@ position: relative;
 }
 .child2{
     background-color: #4c57f1;
-    height: 1500px;
+    height: 1800px;
     width: 100%;   
 }
 .image-wrapper{
@@ -146,7 +141,7 @@ position: relative;
     border-bottom: 1px dotted #558ef7;
     position: absolute;
     z-index: 10;
-    margin-top: 160px;
+    margin-top: 15px;
     display: flex;
     margin-left: 30px;
 }
@@ -169,22 +164,7 @@ position: relative;
     margin-left: 40px;
     margin-top: 10px;
 }
-.column3_odrazka{
-    margin-left: 5px;
-    font-size: 12px;
-    font-weight: 400;
-}
-.column4_odrazka{
-    margin-left: 5px;
-    font-size: 12px;
-    font-weight: 400;
-}
-.column5_odrazka{
-    margin-left: 5px;
-    font-size: 12px;
-    font-weight: 400;
-}
-.column6_odrazka{
+.column_odrazka{
     margin-left: 5px;
     font-size: 12px;
     font-weight: 400;
@@ -195,23 +175,192 @@ position: relative;
     font-size: 12px;
     font-weight: 500;
 }
-.column7_odrazka{
-    margin-left: 5px;
-    font-size: 12px;
-    font-weight: 400;
+.nadpis1{
+    margin-top: 250px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 26px;
+    
 }
-.column8_odrazka{
-    margin-left: 5px;
-    font-size: 12px;
-    font-weight: 400;
+.sekcia_pod_textom{
+    display: block;
+    justify-self: center;
+    margin-left: -20%;
+    position: absolute;
 }
-.column9_odrazka{
-    margin-left: 5px;
+.text_pod_nadpis1{
+    margin-top: 15px;
+    font-family: Roboto;
+    color: white;
     font-size: 12px;
-    font-weight: 400;
+    line-height: 25px;
+    font-weight: 500;
 }
-.column10_odrazka{
-    margin-left: 5px;
+.odkaz_mail{
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Roboto;
+    color: white;
+    font-weight: 700;
+
+}
+.label_meno{
+    color: white;
+    font-family:Roboto;
+    font-weight: 600;
+    
+}
+
+.label_mail{
+    margin-top: 10px;
+    color: white;
+    font-family:Roboto;
+    font-weight: 600;   
+    flex-direction: column; 
+}
+
+textarea{
+    resize: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.input_msg{
+    color: white;
+    font-family:Roboto;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.btn2{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    transition: all .3s;
+    border-color: white;
+    width: 250px;
+}
+.btn2:hover{
+    background-color: #4c57f1;
+    color: #ffffff;
+}
+.formular{
+    
+    margin-top: 250px;
+    display: block;
+    justify-self: center;
+    margin-left: 25%;  
+    position: absolute;  
+}
+.meno{
+    margin-bottom: 10px;
+    width: 250px;
+    height: 30px;
+}
+.mail{
+    width: 250px;
+    height: 30px;
+    border: white;
+}
+.msg{
+    width: 250px;
+}
+input::placeholder{
+    color: #aaa;
+    padding-left: 10px;
+    font-size: 11px;
+    font-weight: 300;
+}
+.checkbox_1{
+    margin-left: 30px;
+}
+.checkbox_text{
+    color: white;
+    font-family: Roboto;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.odkaz_terms{
+    text-decoration: none;
+    color: #a8c3f7;
+    font-weight: 300;
+}
+.footer_content{
+    position: absolute;
+    z-index: 10;
+}
+footer{
+    border: #000000 2px solid;
+    background-color: #000000;
+    height: 400px;
+}
+.logo_white{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 20%;
+    height: 100px;
+}
+.footer_text{
+    color: white;
+    display: flex;
+    padding-left: 20%;
+    font-family: Roboto;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.email_2{
+    margin-left: 20%;
+    margin-top: 10px;
+    border-radius: 12px;
+    height: 30px;
+    width: 250px;
+}
+.btn3{
+    margin-left: 20%;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    background-color: #4c57f1;
+    padding: 8px 20px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    transition: all .3s;
+    width: 250px;
+    margin-top: 15px;
+    height: 30px;
+}
+.btn3:hover{
+    background-color: #a8c3f7;
+    opacity: 1;
+}
+.odstavec_2_odkaz{
+    color: white;
+    text-decoration: none;  
+    line-height: 25px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+.odstavec_2_text{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 600;
 }
