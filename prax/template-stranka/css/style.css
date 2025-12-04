@@ -307,13 +307,13 @@ footer{
 .logo_white{
     display: inline-block;
     padding-top: 50px;
-    padding-left: 20%;
+    padding-left: 10%;
     height: 100px;
 }
 .footer_text{
     color: white;
     display: flex;
-    padding-left: 20%;
+    padding-left: 10%;
     font-family: Roboto;
     line-height: 22px;
     font-size: 14px;
@@ -322,14 +322,14 @@ footer{
     padding-bottom: 10px;
 }
 .email_2{
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 10px;
     border-radius: 12px;
     height: 30px;
     width: 250px;
 }
 .btn3{
-    margin-left: 20%;
+    margin-left: 10%;
     display: inline-block;
     text-decoration: none;
     font-family: Roboto;
@@ -356,6 +356,8 @@ footer{
     line-height: 25px;
     font-family: Roboto;
     font-weight: 600;
+    margin-left: 45%;
+    line-height: 30px;
 }
 .odstavec_2_text{
     color: white;
@@ -363,4 +365,42 @@ footer{
     font-size: 24px;
     font-family: Roboto;
     font-weight: 600;
+    margin-left: 45%;
+    margin-top: -250px;
+}
+.odstavec_2_odkaz:hover{
+    color: #4c57f1;
+    opacity: 1;
+}
+.odstavec_3_odkaz{
+    display: inline-block;
+    color: white;
+    text-decoration: none;  
+    line-height: 25px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-left: 65%;
+    line-height: 45px;
+    margin-top: -250px;
+}
+.odstavec_3_text{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-left: 65%;
+    margin-top: -165px;
+}
+.odstavec_3_odkaz:hover{
+    color: #4c57f1;
+    opacity: 1;
+}
+.odstavec_4{
+    color: white;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-left: 80%;
+    margin-top: -175px;
+
 }
