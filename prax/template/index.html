@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>svg</title>
+    <title>template</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
     <nav class="nav">
         <ul class="nav_list">
             <li class="nav_item"><a href="" class="nav_link">Home</a></li>
-            <li class="nav_item"><a href="" class="nav_link">Pages</a></li>
+            <li class="nav_item"><a href="about_us.html" class="nav_link">About Us</a></li>
             <li class="nav_item"><a href="" class="nav_link">Contact Us</a></li>
             <li class="nav_item"><a href="" class="btn">Start a Project</a></li>
         </ul>
@@ -77,21 +77,24 @@
             love to collaborate with you.
         </div>
         <a href="" class="odkaz_mail">hi@design.studio.com</a>
-    
-        <section class="inputy">
+    </section>
+        <form action="formular" method="post" class="formular">
         <label for="meno" class="label_meno">Name</label>
-        <input type="text" class="meno">
+        <br>
+        <input type="text" class="meno" placeholder="Enter your Name">
         <br>
         <label for="mail" class="label_mail">Email</label>
-        <input type="text" class="mail">
         <br>
-        <div class="input_msg">Message</div>
-        <textarea rows = "8" cols="30" name="comment" id="comment"></textarea>
+        <input type="text" class="mail" placeholder="Enter a valid email address">
+        <br>
+        <label for="textarea" class="input_msg">Message</label>
+        <br>
+        <textarea rows = "8" cols="30" name="comment" id="comment" class="msg"></textarea>
+        <br>
+         <div class="checkbox_text"><input type="checkbox" class="checkbox_1"> I accept the <a href="" class="odkaz_terms">Terms of Service</a></div>
         <br>
         <input type="submit" name="btn" class="btn2">
-        </section>
-    
-    </section>
+        </form>
     </div>
     <div class="image-wrapper">
         <img src="pictures/background_img.jpg"  class="stranka-background">
@@ -99,7 +102,49 @@
 </div>
 </main>
 
-
+<footer>
+    <div class="footer_content"></div>
+        <section class="odstavec_1">    
+            <a href="#" class="logo_white">
+            <img src="pictures/logo-white.png" alt="" width="100px" height="auto">
+            </a>
+            <div class="footer_text">We blend the flexibility and <br> personalized approach of a freelancer <br>with the teamwork, expertise, and <br>reliability of an experienced agency.</div>
+            <form action="formular" method="post">
+            <input type="text" name="email" id="email_2" class="email_2" placeholder="Enter a valid email address">
+            <br>
+            <input type="submit" name="btn" class="btn3">
+            </form>
+        </section>
+        <section class="odstavec_2">
+            <div class="odstavec_2_text">Quick Links</div>
+            <a href="#" class="odstavec_2_odkaz">About Us</a>
+            <br>
+            <a href="#" class="odstavec_2_odkaz">Consultation</a>
+            <br>
+            <a href="#" class="odstavec_2_odkaz">Our Blog</a>
+            <br>
+            <a href="#" class="odstavec_2_odkaz">Case studies</a>
+        </section>
+        <section class="odstavec_3">
+            <div class="odstavec_3_text">Services</div>
+            <a href="#" class="odstavec_3_odkaz">Digital Design</a>
+            <br>
+            <a href="#" class="odstavec_3_odkaz">Marketing</a>
+            <br>
+            <a href="#" class="odstavec_3_odkaz">Product Design</a>
+            <br>
+            <a href="#" class="odstavec_3_odkaz">Development</a>
+        </section>
+        <section class="odstavec_4">
+            <div style=" font-size: 24px;">Contact Us</div>
+            <div style="font-size: 12px; padding-bottom: 15px; padding-top: 15px;">Please get in touch with one <br> of our Project Consultants</div>
+            <a href="#" style="text-decoration: none; color: white;">hi@design.studio.com</a>
+        </section>
+    
+    
+    
+    </div> 
+</footer>
 
 
 </body>
