@@ -1,0 +1,29 @@
+.navbar_bg{
+    background: linear-gradient(
+        to bottom,
+        #6d8cf1,
+        white
+    );
+}
+.navbar_brand{
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    position: relative;
+    justify-content: flex-end;
+}
+.btn_border{
+    border: 2px solid #6d8cf1;
+    border-radius: 16px;
+    transition: .3;
+}
+.btn_border:hover{
+    background-color: #6d8cf1;
+    color: white;
+}
+.card{
+    border: 2px solid #6d8cf1;
+    border-radius: 16px;
+
+}
