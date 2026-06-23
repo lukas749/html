@@ -1,119 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onepage</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Finančné Poradenstvo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light fw-bold" href="#">Poradenstvo</a>
-          <button class="navbar-toggler bg-light fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-light"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Domov</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light fw-bold" href="#">Kontaktujte nás</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu bg-primary">
-                  <li><a class="dropdown-item text-light fw-bold" href="#">Action</a></li>
-                  <li><a class="dropdown-item text-light fw-bold" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider "></li>
-                  <li><a class="dropdown-item text-light fw-bold" href="#">Something else here</a></li>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#domov">Poradenstvo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav current-navbar shadow-sm-none">
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-semibold px-3" href="#domov">Domov</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-semibold px-3" href="#sluzby">Služby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-semibold px-3" href="#o-nas">Prečo my?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-semibold px-3" href="#kontakt">Kontakt</a>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success text-light fw-bold" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-      <main class="bg-l container-fluid">
-    <section class="mt-5">
-      <div class = "container d-flex justify-content-center">
-          <div class="row">
-            <div class="col">
-              <h1 class="text-center fw-bold fs-1">Vitajte u nás!</h1> 
-
-            <div class="">
-              <div class="container text-center">
-                <div class="row align-items-center  ">
-                  <div class="col card border-primary mb-3 p-3 mt-5" >
-                    <div class="card-body" style="width: 18rem;">
-                      <h5 class="card-title">Tipové poradenstvo</h5>
-                      <h6 class="card-subtitle mb-2 text-body-secondary">Pri prehre 30% späť.</h6>
-                      <p class="card-text">Predpladte si jedinečnú ponuku tipového poradenstva od 29,99€ mesačne</p>
-                      <button type="button" class="btn btn-success">Zakúpiť</button>
-                      <a href="">Zistiť viac</a>
-                    </div>
-                  </div>
-                  <div class="col card border-primary mb-3 p-5 mt-5">
-                    <div class="card-body" style="width: 18rem;">
-                      <h5 class="card-title">Investičné poradenstvo</h5>
-                      <h6 class="card-subtitle mb-2 text-body-secondary">Vraciame späť až 10%!</h6>
-                      <p class="card-text">Predpladte si jedinečnú ponuku investičného poradenstva od 29,99€ mesačne</p>
-                      <button type="button" class="btn btn-success">Zakúpiť</button>
-                    <a href="">Zistiť viac</a>
-                    </div>
-                  </div>
-                  <div class="col card border-primary mb-3 p-3 mt-5">
-                    <div class="card-body" style="width: 18rem;">
-                      <h5 class="card-title">Finančné poradenstvo</h5>
-                      <h6 class="card-subtitle mb-2 text-body-secondary">Objednajte si odborníka na financie!</h6>
-                      <p class="card-text">Predpladte si jedinečnú ponuku finančného poradenstva od 29,99€ mesačne</p>
-                      <button type="button" class="btn btn-success">Zakúpiť</button>
-                      <a href="">Zistiť viac</a>
-                    </div>
-                </div>
-              </div>
             </div>
         </div>
-      </div>
-    </div>
-    </section>
-    
-    <section>
-        <div>
+    </nav>
 
+    <main>
+        <section id="domov" class="bg-dark text-light py-5 text-center px-3">
+            <div class="container py-5">
+                <h1 class="display-4 fw-bold mb-3">Zabezpečte svoju finančnú budúcnosť</h1>
+                <p class="lead mb-4">Pomáhame vám robiť správne investičné rozhodnutia a chrániť vaše peniaze.</p>
+                <a href="#sluzby" class="btn btn-primary btn-lg fw-bold me-2">Naše služby</a>
+                <a href="#kontakt" class="btn btn-outline-light btn-lg fw-bold">Nezáväzná konzultácia</a>
+            </div>
+        </section>
+
+        <section id="sluzby" class="py-5 bg-light">
+            <div class="container py-4">
+                <h2 class="text-center fw-bold mb-5 display-6">Naša ponuka služieb</h2> 
+                
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-primary shadow-sm text-center">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h5 class="card-title fw-bold text-primary mb-3">Tipové poradenstvo</h5>
+                                <h6 class="card-subtitle mb-3 text-success fw-semibold">Pri prehre 30% späť.</h6>
+                                <p class="card-text text-muted flex-grow-1">Predplaťte si jedinečnú ponuku tipového poradenstva už od 29,99 € mesačne.</p>
+                                <div class="mt-4">
+                                    <button type="button" class="btn btn-success w-100 fw-bold mb-2">Zakúpiť</button>
+                                    <a href="#kontakt" class="d-block text-decoration-none text-secondary small">Zistiť viac</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 border-primary shadow-sm text-center">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h5 class="card-title fw-bold text-primary mb-3">Investičné poradenstvo</h5>
+                                <h6 class="card-subtitle mb-3 text-success fw-semibold">Vraciame späť až 10%!</h6>
+                                <p class="card-text text-muted flex-grow-1">Predplaťte si jedinečnú ponuku investičného poradenstva už od 29,99 € mesačne.</p>
+                                <div class="mt-4">
+                                    <button type="button" class="btn btn-success w-100 fw-bold mb-2">Zakúpiť</button>
+                                    <a href="#kontakt" class="d-block text-decoration-none text-secondary small">Zistiť viac</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 border-primary shadow-sm text-center">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h5 class="card-title fw-bold text-primary mb-3">Finančné poradenstvo</h5>
+                                <h6 class="card-subtitle mb-3 text-success fw-semibold">Objednajte si odborníka!</h6>
+                                <p class="card-text text-muted flex-grow-1">Predplaťte si jedinečnú ponuku finančného poradenstva už od 29,99 € mesačne.</p>
+                                <div class="mt-4">
+                                    <button type="button" class="btn btn-success w-100 fw-bold mb-2">Zakúpiť</button>
+                                    <a href="#kontakt" class="d-block text-decoration-none text-secondary small">Zistiť viac</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="o-nas" class="py-5">
+            <div class="container py-4 text-center">
+                <h2 class="fw-bold mb-4 display-6">Prečo zveriť financie nám?</h2>
+                <div class="row g-4 mt-2">
+                    <div class="col-md-4">
+                        <div class="p-3">
+                            <h5 class="fw-bold">Dlhoročné skúsenosti</h5>
+                            <p class="text-muted">Pohybujeme sa na trhu už roky a rozumieme aktuálnym trendom.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3">      
+                            <h5 class="fw-bold">Garancia a bezpečnosť</h5>
+                            <p class="text-muted">Vaše financie sú u nás chránené silnými garanciami vrátenia peňazí.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3">                    
+                            <h5 class="fw-bold">Osobný prístup</h5>
+                            <p class="text-muted">Každému klientovi vytvárame finančnú stratégiu presne na mieru.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="kontakt" class="py-5 bg-light">
+            <div class="container py-4">
+                <h2 class="text-center fw-bold mb-5 display-6">Máte otázky? Napíšte nám!</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form class="bg-white p-4 rounded shadow-sm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-semibold">Vaše meno</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-semibold">E-mailová adresa</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-semibold">Vaša správa</label>
+                                <textarea class="form-control" id="message" rows="4"required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 fw-bold py-2">Odoslať formulár</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4 mt-auto">
+        <div class="container text-center">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-primary">Kontaktujte nás</h5>
+                    <p class="text-primary mb-0">E-mail: info@poradenstvo.sk</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-primary">Telefónne číslo</h5>
+                    <p class="text-primary mb-0">+421 0949 555 777</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <p class="text-primary mb-0">&copy; 2026 Poradenstvo.sk. Všetky práva vyhradené.</p>
+                </div>
+            </div>
         </div>
-    </section>
-    
-    <section>
-        <div>
+    </footer>
 
-        </div>
-    </section>
-</main>
-
-
-
-<footer class="bg-dark fixed-bottom">
-    <div class="text-center container text-light">
-        <ul>
-          <div>
-            Kontaktujte nás:
-          </div>
-          <div>
-            Tel. číslo:
-          </div>
-          <div>&copy; 2026Poradenstvo.sk</div>
-        </ul>
-    </div>
-
-</footer >
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
